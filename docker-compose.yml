@@ -1,11 +1,11 @@
 services:
   sqlserver:
     image: mcr.microsoft.com/mssql/server:2022-latest
-    platform: linux/amd64         # ✅ Force Intel architecture
+    platform: linux/amd64         
     container_name: sqlserver
     environment:
       - ACCEPT_EULA=Y
-      - MSSQL_SA_PASSWORD=magellanDHV1738@
+      - MSSQL_SA_PASSWORD=verystrongpassword
     ports:
       - "1433:1433"
     volumes:
