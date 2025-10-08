@@ -1,7 +1,7 @@
 services:
   sqlserver:
     image: mcr.microsoft.com/mssql/server:2022-latest
-    platform: linux/amd64         
+    platform: linux/amd64        // linux/intel
     container_name: sqlserver
     environment:
       - ACCEPT_EULA=Y

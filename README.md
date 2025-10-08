@@ -27,6 +27,14 @@ To run the SQL Server database in Docker:
 4. **Stop the container**  
     ```bash
     docker-compose down
+    ``
+5. **Pause the container**  
+    ```bash
+    docker stop container_name
+    ```
+4. **Resume the container**  
+    ```bash
+    docker start container_name
     ```
 
 **Note:**  
