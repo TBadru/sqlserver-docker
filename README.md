@@ -1,5 +1,5 @@
 # SQL SERVER - DOCKER
-A MSSQL Server Database running in a containerized environment (Docker container)
+Run a Microsoft SQL Server instance in a containerized Docker environment.
 
 
 ## Getting Started
@@ -49,4 +49,5 @@ To run the SQL Server database in Docker:
 
 - Docker Desktop
 - Docker CLI
+
 
