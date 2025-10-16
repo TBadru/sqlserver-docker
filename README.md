@@ -7,7 +7,7 @@ To run the SQL Server database in Docker:
 
 1. **Clone the repository**  
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/TBadru/sqlserver-docker.git
     cd sqlserver-docker
     ```
 
@@ -27,7 +27,7 @@ To run the SQL Server database in Docker:
 4. **Stop the container**  
     ```bash
     docker-compose down
-    ``
+    ```
 5. **Pause the container**  
     ```bash
     docker stop container_name
@@ -49,3 +49,4 @@ To run the SQL Server database in Docker:
 
 - Docker Desktop
 - Docker CLI
+
