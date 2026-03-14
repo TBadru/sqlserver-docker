@@ -10,7 +10,8 @@ To run the SQL Server database in Docker:
     git clone https://github.com/TBadru/sqlserver-docker.git
     cd sqlserver-docker
     ```
-
+   
+   Add your SQL Server backup file (.bak) into the init/ directory and amend restore.sql accordingly.
 2. **Start the SQL Server container**  
     ```bash
     docker compose up -d
